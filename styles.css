@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #16a085;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: #148f77;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: #f4f9f9;
+}
+
+.hero h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #1abc9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #148f77;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* ORDER FORM */
+.order {
+    background: #f9fefe;
+}
+
+.order-form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.order-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+.order-form input,
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.order-form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #1abc9c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background: #148f77;
+}
+
+.note {
+    font-size: 13px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* CONTACT */
+.contact p {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+.footer {
+    background: #16a085;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 26px;
+    }
+}
